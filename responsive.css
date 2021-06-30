@@ -1,0 +1,157 @@
+/* Responsive Css STart  HEre */
+
+@media (max-width:991px) {
+    .sticky-top {
+        padding: 4px 0px;
+        background-color: #fff;
+    }
+    .header-section ul li ul {
+        position: absolute;
+        top: 20%;
+        left: 100px;
+        width: 150px;
+        text-align: center;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        transform: scaleY(0);
+        transform-origin: top center;
+        transition: .5s;
+        z-index: 999;
+    }
+    .banner-section {
+        background-color: #f9f9ff;
+        padding: 2rem 0rem;
+    }
+    .counter-content h3 {
+        font-size: 1.5rem;
+    }
+    .counter-content p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:768px){
+    .about-section .about-content {
+        margin-top: 21px;
+        padding-left: 15px;
+    }
+    .counter-content {
+        margin: 10px 0px;
+    }
+    .heading h1 {
+        font-size: 2rem;
+    }
+    .heading p {
+        font-size: .7rem !important;
+    }
+
+}
+
+@media (max-width:585px){
+    
+    .about-img.ps-4 {
+        padding: 2rem;
+    }
+    .about-section .about-content p {
+        padding-right: 100px;
+        font-size: 1rem;
+    }
+    .feedback-section .card .card-body h4 {
+        margin-bottom: 7px;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:495px){
+    .fotter-content p {
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width:450px){
+    .heading h1 {
+        font-size: 1.5rem;
+    }
+    .heading p {
+        font-size: .6rem !important;
+        padding: 0px 26px;
+    }
+    
+
+}
+
+@media (max-width:360px){
+
+    .about-section .about-content p {
+        padding-right: 30px;
+        font-size: 1rem;
+    }
+    .about-section .about-content h1 {
+        font-size: 30px;
+    }
+    .about-section .about-content span {
+        font-size: 1.1rem !important;
+    }
+
+    .feedback-section .card .card-body h4 {
+        margin-bottom: 5px;
+        font-size: 1.3rem;
+    }
+    .feedback-section .card .card-body p {
+        margin-bottom: 25px;
+        font-size: 12px;
+    }
+    .feedback-section .card .card-body a {
+        font-size: 12px;
+    }
+    .header-section ul li ul {
+        width: 108px;
+       
+    }
+}
+
+@media (max-width:310px){
+
+    .about-section .about-content span {
+        font-size: 1rem !important;
+    }
+    .about-section .about-content h1 {
+        font-size: 24px;
+    }
+    .about-section .about-content p {
+        padding-right: 20px;
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    .banner-section h1 {
+        font-size: 26px;
+    }
+    .banner-section.pt-3 {
+        padding-top: 0rem !important;
+    }
+    .counter-content h3 {
+        font-size: 1.1rem;
+    }
+    .heading h1 {
+        font-size: 1.2rem;
+    }
+    .pricing-section .card .card-body h2 {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .pricing-section .card .card-body h5 {
+        font-size: 16px;
+    }
+    .pricing-section .card .card-body p {
+        font-size: 13px;
+    }
+    .pricing-section .card .card-body ul li {
+        font-size: .7rem;
+    }
+    .pricing-section .card .card-body .btn a {
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,370 @@
+/* Bismillahir Rahmanir Rahim */
+
+
+/* Site Css Start Here */
+
+/* Default Css Below */
+/* 
+* {
+    font-family: 'Work Sans', sans-serif;
+} */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    border: none;
+    outline: none;
+}
+
+
+
+
+/* Header Section Css Start Here */
+
+.header-section .navbar-brand {
+    position: relative;
+    top: 1px;
+    left: 0px;
+
+}
+
+.header-section .navbar-brand img {
+    width: 29px;
+}
+
+/* menu Css Start Here */
+
+.header-section ul {}
+
+.header-section ul li {
+    margin: 0px 6px;
+    position: relative;
+}
+
+.header-section ul li a {
+    padding: 26px 0px;
+    transition: .4s;
+}
+
+.header-section ul li:hover>a {
+    color: #8490ff !important;
+}
+
+
+/* Drop Down Menu Css Here */
+
+.header-section ul li ul {
+    position: absolute;
+    top: 99%;
+    left: 0px;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: .5s;
+    z-index: 999;
+}
+
+.header-section ul li:hover>ul {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    background-color: #fff;
+}
+
+.header-section ul li ul li {
+    display: block;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    margin: 0px 0px;
+
+}
+
+
+
+.header-section ul li ul li:last-child {
+    border-bottom: 0px;
+}
+
+.header-section ul li ul li a {
+    display: block;
+    color: #000;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+
+
+/* Banner Section Css Start Heere */
+
+.banner-section {
+    background-color: #f9f9ff;
+}
+
+.banner-section .banner-content {
+    margin-top: 150px;
+    margin-right: 40px;
+}
+
+
+
+.banner-section h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+
+.primary-btn {
+    background-color: #8490ff;
+    color: #fff;
+    padding: 7px 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.primary-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/* About Section Css Start HEre */
+
+.about-section .about-img img {
+    border: 16px solid #f6f6fc;
+    border-radius: 6px;
+}
+
+.about-section .about-content {
+    margin-top: 30px;
+    padding-left: 70px;
+}
+
+.about-section .about-content span {}
+
+.about-section .about-content h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 11px;
+    margin-bottom: 25px;
+}
+
+.about-section .about-content p {
+    padding-bottom: 10px;
+}
+
+
+
+/* Counter Section Css Start Here */
+
+.counter-section {
+    background-color: #8490ff;
+}
+
+.counter-content h3 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.counter-content p {
+    color: #fff;
+    /* font-weight: 400; */
+}
+
+
+
+/* Pricing section css Here */
+
+.pricing-section {
+    background-color: #f9f9ff;
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.heading p {
+    padding-bottom: 30px;
+}
+
+
+.pricing-section .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+
+
+.pricing-section .card .card-body .btn a {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    border: 1px solid #6278df !important;
+    color: #6278df !important;
+    transition: .5s;
+    /* outline: none; */
+}
+
+.pricing-section .card .card-body .btn a:hover {
+    background-color: black !important;
+    color: #fff !important;
+    border: 1px solid black !important;
+}
+
+.pricing-section .card .card-body h2 {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background-color: #f9f9ff;
+    margin: 0px auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.pricing-section .card .card-body h5 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.pricing-section .card .card-body p {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.pricing-section .card .card-body ul {
+    margin-bottom: 40px;
+}
+
+.pricing-section .card .card-body ul li {
+    margin: 24px 0px;
+    color: #7c8694;
+}
+
+
+/* Feedback Section Css Start HEre */
+
+.feedback-section {
+    padding-top: 120px;
+    /* padding-bottom: 40px; */
+}
+
+.feedback-section .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-top: 55px;
+    margin-bottom: 60px;
+}
+
+.feedback-section .card .card-body img {
+    position: absolute;
+    top: -51px;
+    left: 20px;
+    width: 90px;
+}
+
+.feedback-section .card .card-body {
+    padding: 0px 20px;
+}
+
+
+.feedback-section .card .card-body h4 {
+    margin-bottom: 0px;
+}
+
+.feedback-section .card .card-body span {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.feedback-section .card .card-body p {
+    margin-bottom: 30px;
+}
+
+
+.feedback-section .card .card-body a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 2.5px 4.33px 25px 0 rgba(0, 0, 0, 0.3);
+    padding: 0.5rem 0.7rem;
+    border: none;
+    transition: .4s;
+    border-radius: 6px;
+}
+
+.feedback-section .card .card-body a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Contact Section Css Start HEre */
+
+.contact-section {
+    background-color: #f9f9ff;
+
+}
+
+
+.contact-section .card {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.contact-section .card h5 {
+    margin-bottom: 25px;
+}
+
+.contact-section .card .card-body {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.contact-section .card .card-body form input[type="submit"] {
+    background-color: #17a2b8;
+    border: 1px solid transparent;
+    padding: 5px 10px !important;
+    font-weight: normal;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.contact-section .contact-info {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.contact-section .contact-info h5 {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+
+
+.contact-section .contact-info ul li {
+    margin: 15px 0px;
+    font-weight: normal;
+}
